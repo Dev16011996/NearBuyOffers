@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    android:id="@+id/coordinatorLayout1"
+    tools:context="project.dev16.android.nearbuyoffers.OwnerLogin"
+    android:background="@color/colorPrimary">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+      <com.github.florent37.materialtextfield.MaterialTextField
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="ShopName"
+            android:textColor="#333"
+            android:id="@+id/editTextName"
+            android:maxLength="25"
+            android:inputType="text"
+            android:textColorHint="#666"
+            android:textSize="20sp" />
+    </com.github.florent37.materialtextfield.MaterialTextField>
+
+            <com.github.florent37.materialtextfield.MaterialTextField
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                >
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="ItemName"
+                    android:textColor="#333"
+                    android:id="@+id/editTextItem"
+                    android:maxLength="25"
+                    android:inputType="text"
+                    android:textColorHint="#666"
+                    android:textSize="20sp" />
+            </com.github.florent37.materialtextfield.MaterialTextField>
+
+
+            <com.github.florent37.materialtextfield.MaterialTextField
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                >
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Quantiy"
+                    android:textColor="#333"
+                    android:id="@+id/editTextQuantity"
+                    android:maxLength="25"
+                    android:inputType="text"
+                    android:textColorHint="#666"
+                    android:textSize="20sp" />
+            </com.github.florent37.materialtextfield.MaterialTextField>
+            <com.github.florent37.materialtextfield.MaterialTextField
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                >
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Discount"
+                    android:textColor="#333"
+                    android:id="@+id/editTextDiscount"
+                    android:maxLength="25"
+                    android:inputType="text"
+                    android:textColorHint="#666"
+                    android:textSize="20sp" />
+            </com.github.florent37.materialtextfield.MaterialTextField>
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="55dp"
+                android:id="@+id/button_upload"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="10dp"
+                android:hint="Select Image From Gallery"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:background="#ffffff"
+                android:textColor="#D32F2F"
+                android:textColorHint="@color/colorPrimary" />
+
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="55dp"
+                android:id="@+id/buttonSave"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="10dp"
+                android:hint="SUBMIT"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:background="#ffffff"
+                android:textColor="#D32F2F"
+                android:textColorHint="@color/colorPrimary" />
+
+
+    <TextView
+        android:text="Shop List"
+        android:textStyle="bold"
+        android:textColor="#FFF"
+        android:textSize="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textViewShop"
+        android:layout_width="match_parent"
+        android:textColor="#FFF"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>

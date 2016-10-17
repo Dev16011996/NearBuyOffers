@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "495974989490",
+    "firebase_url": "https://nearbuy-offers.firebaseio.com",
+    "project_id": "nearbuy-offers",
+    "storage_bucket": "nearbuy-offers.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:495974989490:android:1110da442724c7fc",
+        "android_client_info": {
+          "package_name": "project.dev16.android.nearbuyoffers"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "495974989490-2qlpunr5afeerkca4asr5iilbcem3o9m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBw959kCIS_mU8wvEofz1IG1POdZg-t4_M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
